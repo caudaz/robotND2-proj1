@@ -78,6 +78,10 @@ A random sample of 16 images for each class is shown below for class1
 
 ![](./media/image4.jpeg)
 
+The folders to be used for training/validation are:
+- cars_trucks_ren_256x256  +  cars_trucks_ren_256x256_flip
+- stuffed_animals_ren_256x256  +  stuffed_animals_ren_256x256_flip
+
 The summary of the dataset from DIGITS is shown below:
 
 ![](./media/image5.png)
@@ -98,7 +102,7 @@ of 0.01/0.001/0.0001 .
 ## RESULTS ##
 
 To test the model to be deployed, I used images that were not part of
-the train/valid data. Here are 6 samples with (0 is class stuffed animal
+the train/valid data. These images are inside folder testdataset. Here are 6 samples with (0 is class stuffed animal
 and 1 is class car/truck):
 
 ![](./media/image8.png)
